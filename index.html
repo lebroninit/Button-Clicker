@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Button Clicker</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="name">Dojonary</h1>
+                <input type="text" id="searchBar">
+                <button id="searchButton" onclick="login(this)">Login</button>
+            </div>
+            <div id="info">
+                <div id="left">
+                    <div class = "defs">
+                        <div class = "def1st">
+                            <h2 class="ninja">ninja</h2>
+                            <h5>noun</h5>
+                            <p>Plural: <span class="ninjas">ninjas</span></p>
+                            <button class="likeButton" onclick="like()"><b>13 likes</b></button>
+                        </div>
+                        <h4>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h4>
+                    </div>
+                    <div class = "defs" id="needy">
+                        <div class = "def1st">
+                            <h2 class="ninja">ninja</h2>
+                            <h5>noun</h5>
+                            <p>Plural: <span class="ninjas">ninjas</span></p>
+                            <button class="likeButton" onclick="like()"><b>37 likes</b></button>
+                        </div>
+                        <h4>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h4>
+                    </div>
+                </div>
+                <div id="right">
+                    <h3>Dojonary is  defined by you</h3>
+                    <button id="defbtn" onclick="def(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
